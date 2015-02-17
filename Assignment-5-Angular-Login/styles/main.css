@@ -1,0 +1,44 @@
+#no-js{
+	background-color: aquamarine;
+	border: 10px solid navy;
+}
+
+.login{
+	color: navy;
+}
+
+#div{
+	display: block;
+}
+
+#likeButton1{
+	margin-bottom: 0.5em;
+	vertical-align: middle;
+	line-height: 20px;
+	height: 1em;
+	width: 8em;
+	border: solid navy 3px;
+	background-color: rgb(45,181,251);
+	border-radius: 5px;
+	color: white;
+	float: left;
+}
+#likeButton2{
+	margin-bottom: 0.5em;
+	vertical-align: middle;
+	line-height: 20px;
+	height: 1em;
+	width: 8em;
+	border: solid navy 3px;
+	background-color: rgb(45,181,251);
+	border-radius: 5px;
+	color: white;
+	float:left;
+	clear: both;
+}
+#input{
+	margin:  0 0 0.5em 0.25em;
+	border: solid navy 3px;
+	border-radius: 5px;
+   float: left;
+}
