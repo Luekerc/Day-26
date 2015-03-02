@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <title>Tabs</title>
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body ng-app='app' ng-controller="Tabs">
+    
+        <div class="nav-bar">
+          <div class="nav" ng-click="changeTab('red')">red</div>
+          <div class="nav" ng-click="changeTab('green')">green</div>
+          <div class="nav" ng-click="changeTab('blue')">blue</div>
+        </div>
+        
+        <div class="text-area" ng-show="currentTab === 'red'">
+          Single-origin coffee drinking vinegar you probably haven't heard of them do meh. Exercitation Williamsburg non, odio hashtag velit mustache delectus kogi normcore twee drinking vinegar ea. Retro labore Thundercats butcher. Crucifix selvage commodo excepteur. Accusamus DIY trust fund, velit kogi single-origin coffee PBR American Apparel irony. Single-origin coffee art party beard enim pug placeat. Hashtag semiotics drinking vinegar tofu, Bushwick ullamco eiusmod American Apparel esse sustainable swag.
+        </div>
+
+        <div class="text-area" ng-show="currentTab === 'green'">
+         In odio elit id, sriracha commodo culpa quis eu pork belly disrupt eiusmod cupidatat. Aesthetic Vice +1 commodo kale chips. Wes Anderson tilde Pinterest ad, YOLO whatever banjo direct trade. Hoodie squid odio kale chips, lomo ad narwhal Thundercats Austin aesthetic aute Wes Anderson. Consequat actually roof party readymade, Neutra XOXO selfies pickled fugiat chia. Eiusmod polaroid nesciunt, ullamco Blue Bottle salvia cray hella twee. Blog banjo squid, flexitarian Portland Vice eiusmod biodiesel sriracha nulla fashion axe.
+        </div>
+
+         <div class="text-area" ng-show="currentTab === 'blue'">
+          Nesciunt delectus XOXO jean shorts, cred beard ennui meditation High Life butcher fanny pack farm-to-table do health goth Thundercats. Non paleo fixie, put a bird on it Marfa duis 90's Bushwick Blue Bottle synth Godard. Brunch dolor non semiotics, wolf freegan paleo raw denim ennui. Williamsburg craft beer banh mi velit excepteur, non authentic fixie pork belly keytar tofu leggings. Officia Kickstarter flexitarian Pitchfork Austin organic. Brooklyn pickled nostrud meh. Ullamco blog Vice excepteur readymade vero.
+        </div>
+    
+      <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+        <script type="text/javascript" src="scripts/app.js"></script>
+        <script type="text/javascript" src="scripts/controllers.js"></script>
+    </body>
+</html>

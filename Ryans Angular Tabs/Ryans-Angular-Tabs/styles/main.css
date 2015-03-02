@@ -1,0 +1,28 @@
+
+body {
+	padding: 8px;
+}
+.nav {
+	border-left: solid 2px rgb(122,122,122);
+	border-top: solid 2px rgb(122,122,122);
+	width: 60px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	float: left;
+}
+
+.nav:hover, .nav:active {
+	background-color: black;
+	color: rgb(148,148,148);
+}
+
+.nav:last-child {
+	border-right: solid 2px rgb(122,122,122);
+}
+
+.text-area {
+	clear: both;
+	padding: 8px;
+	border: solid 2px rgb(122,122,122);
+}

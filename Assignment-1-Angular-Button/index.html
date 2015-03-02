@@ -7,8 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale-1">
  <link rel="stylesheet" href="styles/main.css">
 <body ng-app="app">
-    <div>
-		<button id="button" ng-click="startLoading()" ng-controller="LoadingButtonCtrl" ng-bind="buttonText" ng-disabled="buttonDisabled">SUBMIT
+    <div ng-controller="LoadingButtonCtrl">
+		<button id="button"  ng-click="startLoading()"  ng-bind="buttonText" ng-disabled="buttonDisabled">SUBMIT
 		</button>
 	</div>
 

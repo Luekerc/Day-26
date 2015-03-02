@@ -1,4 +1,4 @@
-app.controller('LoginButtonCtrl', function($scope) {
+angular.module('appTest').controller('LoginButtonCtrl', function($scope) {
 	// $scope.numLikes = 0;
 
 	// $scope.addLike = function(){

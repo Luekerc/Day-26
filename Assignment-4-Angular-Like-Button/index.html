@@ -8,8 +8,8 @@
  <link rel="stylesheet" href="styles/main.css">
 <body ng-app="app">
    
-    	<div id="like-button">
-			<button id="likeButton" ng-controller="LikeButtonCtrl" type="button" ng-click="addLike()">{{numLikes}} Likes
+    	<div id="like-button" ng-controller="LikeButtonCtrl" >
+			<button id="likeButton" type="button" ng-click="addLike()">{{numLikes}} {{buttonText}}
 			 </button>
 		</div>
 

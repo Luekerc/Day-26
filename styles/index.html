@@ -1,0 +1,46 @@
+<html class="no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<title>Asisgnment 2 Angular</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale-1">
+ <link rel="stylesheet" href="styles/main.css">
+<body ng-app="app">
+
+    <div id="tabs" ng-controller="LoadingButtonCtrl">
+
+    	<div id="color-tabs">
+			<button id="red-tab" type="button" ng-click="showContentRed()">
+			Red </button>
+			<button id="green-tab" type="button" ng-click="showContentGreen()">
+			Green</button>
+			<button id="blue-tab" type="button" ng-click="showContentBlue()">
+			Blue</button>
+		</div>
+		<br><br><br><br>
+
+		<div id="color-text">
+			<p ng-show="red" >Red is the color of fire, lasercats and rubies.  Red of the Dead is a famous Viking Explorer known to haunt the coastline of Nova Scotia in October.  Red October that is.
+			</p>
+
+		
+			<p ng-show="green">Green was invented in Ireland by a swarthy little man from Westernshire.  He speaks only Gaelic and rides his blue bicycle across the green hillsides looking for spawning salmon.
+			</p>
+
+	
+			<p ng-show="blue">
+			Blue is the color of my true love's hair when she has an episode.  She wants attention and only dies it that color to embarrass me in public.
+			</p>
+		</div>
+
+	</div>
+	
+
+	<script type = "text/javascript" src="bower_components/angular/angular.min.js" ></script>
+	<script type="text/javascript" src="scripts/app.js"></script>
+	<script type="text/javascript" src="scripts/controllers.js"></script>
+
+</body>
+</html>
+
